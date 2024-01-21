@@ -9,7 +9,7 @@ let inventory = ["stick"];
 window.addEventListener("DOMContentLoaded", event => {
   const audio = document.querySelector("audio");
   audio.muted = false;
-  audio.volume = 0.2;
+  audio.volume = 0.05;
 
   const playButton = document.getElementById("playButton");
   const stopButton = document.getElementById("stopButton");
