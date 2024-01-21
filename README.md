@@ -22,7 +22,7 @@ No installation is required, to give the game a go use the deployed website link
 To project is a game used for entertainment purposes.
 The following image shows the web application's appearance and functionality:
 
-![This web app is built with the use of pure HTML, CSS and JS.](./resources/demo.png)
+![This web app is built with the use of pure HTML, CSS and JS.](./resources/demo_2.png)
 
 > **Note**: This layout is designed to be responsive and offers audio feedback.
 
