@@ -26,7 +26,7 @@ The following image shows the web application's appearance and functionality:
 
 > **Note**: This layout is designed to be responsive and offers audio feedback.
 
-The following link will take you to the deployed webpage <https://agworkgit.github.io/dragon-repeller-game/>
+The following link will take you to the deployed webpage <https://agworkgit.github.io/dragon-repeller-rpg/>
 
 
 ## Tests
