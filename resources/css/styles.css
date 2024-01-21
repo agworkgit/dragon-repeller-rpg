@@ -1,0 +1,98 @@
+* {
+  font-family: 'Zilla Slab', serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #1e1e21;
+}
+
+#text {
+  background-color: #ff9500;
+  color: #1e1e21;
+  padding: 10px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+#game {
+  max-width: 500px;
+  max-height: 400px;
+  background-color: #ffffff;
+  color: #ffffff;
+  margin: 50px auto 0px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#controls,
+#stats {
+  border: 1px solid #1e1e21;
+  background-color: #1e1e21;
+  padding: 10px;
+  color: #16e20e;
+}
+
+#stats {
+  border-radius: 5px 5px 0px 0px;
+}
+
+#monsterStats {
+  display: none;
+  /* border: 1px solid #1e1e21; */
+  padding: 10px;
+  color: #ffffff;
+  background-color: #c70d0d;
+}
+
+.stat {
+  padding-right: 10px;
+}
+
+button {
+  cursor: pointer;
+  color: #0a0a23;
+  background-color: #16e20e;
+  background-image: linear-gradient(#84fe4c, #06bf00);
+  border: 1px solid #16e20e;
+  padding: 5px;
+  border-radius: 2.5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #6ddb69;
+  background-image: linear-gradient(#8edd8b, #6ddb69);
+  border: 1px solid #6ddb69;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 30px;
+}
+
+/* Device Support */
+@media screen and (max-width: 975px) {
+  #game {
+    max-width: 90vw;
+    max-height: auto;
+  }
+}
