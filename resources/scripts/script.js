@@ -8,6 +8,8 @@ let inventory = ["stick"];
 
 window.addEventListener("DOMContentLoaded", event => {
   const audio = document.querySelector("audio");
+  audio.muted = false;
+  audio.autoplay = true;
   audio.volume = 0.2;
   audio.play();
 });
