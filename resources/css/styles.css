@@ -100,7 +100,7 @@ button:active {
   border: 1px solid #166d3b;
   border-radius: 50px;
   font-size: large;
-  color: black;
+  color: white;
 }
 
 #stopButton {
@@ -112,7 +112,7 @@ button:active {
   border: 1px solid #c83a21;
   border-radius: 50px;
   font-size: large;
-  color: black;
+  color: white;
 }
 
 #themeButton {
