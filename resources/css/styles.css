@@ -9,7 +9,7 @@ body {
 }
 
 #text {
-  background-color: #ff9500;
+  background-color: #0084ff;
   color: #1e1e21;
   padding: 10px;
   border-radius: 0px 0px 5px 5px;
@@ -30,7 +30,7 @@ body {
   border: 1px solid #1e1e21;
   background-color: #1e1e21;
   padding: 10px;
-  color: #16e20e;
+  color: #ffffff;
 }
 
 #stats {
@@ -52,19 +52,21 @@ body {
 button {
   cursor: pointer;
   color: #0a0a23;
-  background-color: #16e20e;
-  background-image: linear-gradient(#84fe4c, #06bf00);
-  border: 1px solid #16e20e;
+  background-color: #0a4f8f;
+  background-image: linear-gradient(45deg, #0084ff 0%, #0a4f8f 74%);
+  border: 1px solid #0a4f8f;
   padding: 5px;
-  border-radius: 2.5px;
+  border-radius: 15px;
   margin-right: 10px;
   margin-bottom: 10px;
+  font-size: medium;
+  color: white;
 }
 
 button:hover {
-  background-color: #6ddb69;
-  background-image: linear-gradient(#8edd8b, #6ddb69);
-  border: 1px solid #6ddb69;
+  background-color: #0084ff;
+  background-image: linear-gradient(45deg, #54a9f8 0%, #0084ff 74%);
+  border: 1px solid #0084ff;
 }
 
 button:active {
@@ -89,10 +91,52 @@ button:active {
   padding-bottom: 30px;
 }
 
+#playButton {
+  width: calc(50vw - 34vw);
+  height: 50px;
+  margin-inline: 1vw;
+  background-color: #166d3b;
+  background-image: linear-gradient(45deg, #7cce82 0%, #21c832 74%);
+  border: 1px solid #166d3b;
+  border-radius: 50px;
+  font-size: large;
+  color: black;
+}
+
+#stopButton {
+  width: calc(50vw - 34vw);
+  height: 50px;
+  margin-inline: 1vw;
+  background-color: #c83a21;
+  background-image: linear-gradient(45deg, #ce917c 0%, #c83a21 74%);
+  border: 1px solid #c83a21;
+  border-radius: 50px;
+  font-size: large;
+  color: black;
+}
+
+#themeButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
 /* Device Support */
 @media screen and (max-width: 975px) {
   #game {
     max-width: 90vw;
     max-height: auto;
+  }
+
+  #playButton {
+    width: calc(50vw - 5vw);
+    height: 50px;
+    margin-inline: 1vw;
+  }
+
+  #stopButton {
+    width: calc(50vw - 5vw);
+    height: 50px;
+    margin-inline: 1vw;
   }
 }

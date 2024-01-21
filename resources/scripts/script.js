@@ -9,9 +9,16 @@ let inventory = ["stick"];
 window.addEventListener("DOMContentLoaded", event => {
   const audio = document.querySelector("audio");
   audio.muted = false;
-  audio.autoplay = true;
   audio.volume = 0.2;
-  audio.play();
+
+  const playButton = document.getElementById("playButton");
+  const stopButton = document.getElementById("stopButton");
+  playButton.addEventListener("click", () => {
+    audio.play();
+  });
+  stopButton.addEventListener("click", () => {
+    audio.pause();
+  });
 });
 
 const goCaveAudio = new Audio('./resources/sounds/go-cave.mp3');
