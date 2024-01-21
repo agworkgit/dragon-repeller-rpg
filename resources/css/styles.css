@@ -10,6 +10,7 @@ body {
 
 #text {
   background-color: #0084ff;
+  background-image: linear-gradient(45deg, #03305b 0%, #0059ac 74%);
   color: white;
   padding: 10px;
   border-radius: 0px 0px 5px 5px;
@@ -18,7 +19,7 @@ body {
 #game {
   max-width: 500px;
   max-height: 400px;
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.5);
   color: #ffffff;
   margin: 50px auto 0px;
   padding: 5px;
@@ -31,6 +32,7 @@ body {
   background-color: #1e1e21;
   padding: 10px;
   color: #ffffff;
+  font-size: x-large;
 }
 
 #stats {
@@ -54,9 +56,9 @@ button {
   color: #0a0a23;
   background-color: #0a4f8f;
   background-image: linear-gradient(45deg, #0084ff 0%, #0a4f8f 74%);
-  border: 1px solid #0a4f8f;
-  padding: 5px;
-  border-radius: 15px;
+  border: 1px solid #306292;
+  padding: 10px;
+  border-radius: 25px;
   margin-right: 10px;
   margin-bottom: 10px;
   font-size: medium;
@@ -96,8 +98,8 @@ button:active {
   height: 50px;
   margin-inline: 1vw;
   background-color: #166d3b;
-  background-image: linear-gradient(45deg, #7cce82 0%, #21c832 74%);
-  border: 1px solid #166d3b;
+  background-image: linear-gradient(45deg, #1f7425 0%, #21c832 74%);
+  border: 1px solid #288b53;
   border-radius: 50px;
   font-size: large;
   color: white;
@@ -108,7 +110,7 @@ button:active {
   height: 50px;
   margin-inline: 1vw;
   background-color: #c83a21;
-  background-image: linear-gradient(45deg, #ce917c 0%, #c83a21 74%);
+  background-image: linear-gradient(45deg, #88361a 0%, #c83a21 74%);
   border: 1px solid #c83a21;
   border-radius: 50px;
   font-size: large;
