@@ -19,7 +19,7 @@ What makes my project stand out is that it uses a lot of entertaining elements u
 No installation is required, to give the game a go use the deployed website link.
 
 ## Usage
-To project is a game used for entertainment purposes.
+This project is a game used for entertainment purposes.
 The following image shows the web application's appearance and functionality:
 
 ![This web app is built with the use of pure HTML, CSS and JS.](./resources/demo_3.png)
